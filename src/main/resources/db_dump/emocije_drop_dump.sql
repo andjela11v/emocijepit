@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `emocije` (
   `Vrsta_Emocije` enum('Radost','Ljutnja','Tuga','Ljubav','Ljubomora','Ponos','Zavist','Smirenost','Strah','Nada') NOT NULL,
   `Poruka` text NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 -- Data exporting was unselected.
 
