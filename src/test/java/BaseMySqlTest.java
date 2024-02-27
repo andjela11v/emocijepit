@@ -44,7 +44,7 @@ public class BaseMySqlTest {
 
         try {
             String path = BaseMySqlTest.class.getClassLoader().getResource(dumpSqlFile).getPath().replaceAll("^/", "");
-            return RunShellCommand.execute(new String[]{"mysql", "-u", "root","db_emocije_m","<", path});
+            return RunShellCommand.execute(new String[]{"mysql", "-u", "root","db_emocije_a","<", path});
         } catch (RuntimeException e) {
             throw new RuntimeException(e.getMessage());
         }

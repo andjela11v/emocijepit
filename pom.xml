@@ -56,7 +56,7 @@
                     <configuration>
                         <includes>
                             <include>**/*MySqlTest1.java</include>
-
+                            <include>**/*MySqlTest2.java</include>
 
                         </includes>
                         <excludes>
